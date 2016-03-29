@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Jonathan Ben-Ammi and Jeff Block">
+	<title></title>
+	<meta name="description" content="Battle Arena">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div id="arena" class="arena">
+		<div id="selArena">
+			<h1>Select Arena</h1>
+			<ul>
+				<li data-hover="arena/beach.jpg">beach</li>
+				<li data-hover="arena/planet.jpg">planet</li>
+				<li data-hover="arena/dojo.jpg">dojo</li>
+			</ul>
+			<ul>
+				<li data-hover="arena/forest.jpg">forest</li>
+				<li data-hover="arena/matrix.jpg">matrix</li>
+				<li data-hover="arena/snow.jpg">snow</li>
+			</ul>
+		</div>
+		<div id="players">
+			<div id="playerOne"></div>
+			<div id="space"></div>
+			<div id="selPlayer">
+				<h1>Select Players</h1>
+				<select id="play1">
+					<option>Select Player 1</option>
+					<option value="player/pl1-1.gif">Black Ninja</option>
+					<option value="player/pl2-1.gif">Green Ninja</option>
+					<option value="player/pl3-1.gif">Blue Ninja</option>
+					<option value="player/pl4-1.gif">Red Ninja</option>
+					<option value="player/pl5-1.gif">White Ninja</option>
+				</select>
+				<select id="play2">
+					<option>Select Player 2</option>
+					<option value="player/pl1-2.gif">Black Ninja</option>
+					<option value="player/pl2-2.gif">Green Ninja</option>
+					<option value="player/pl3-2.gif">Blue Ninja</option>
+					<option value="player/pl4-2.gif">Red Ninja</option>
+					<option value="player/pl5-2.gif">White Ninja</option>
+				</select>
+			</div>
+			<div id="playerTwo"></div>
+		</div>
+	</div>
+</body>
+</html>
